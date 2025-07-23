@@ -1,0 +1,30 @@
+{
+  "name": "piano-ai-music-generator",
+  "version": "1.0.0",
+  "description": "A web application that generates piano music using Magenta AI",
+  "main": "app.js",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "magenta",
+    "ai",
+    "music",
+    "piano",
+    "midi",
+    "tensorflow"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@magenta/music": "^1.23.1",
+    "@tensorflow/tfjs": "^4.15.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
